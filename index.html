@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows Deployment Interface</title>
     
+    <!-- CSS is loaded in the head so the site doesn't flash unstyled -->
     <link rel="stylesheet" href="./config.css">
     <link rel="stylesheet" href="./style.css">
-    
-    <script src="./config.js" defer></script>
-    <script src="./script.js" defer></script>
 </head>
 <body>
 
@@ -31,6 +29,12 @@
     <div id="view-software" class="view-section active"></div>
     <div id="view-system" class="view-section"></div>
 </div>
+
+<!-- SCRIPTS MUST BE AT THE BOTTOM OF THE BODY -->
+<!-- 1. The data object loads first -->
+<script src="./config.js"></script>
+<!-- 2. The engine logic loads second to process the data -->
+<script src="./script.js"></script>
 
 </body>
 </html>
