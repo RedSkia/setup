@@ -1,0 +1,21 @@
+:root {
+    /* Theme Colors - Easy to edit */
+    --bg: #0f172a; 
+    --surface: #1e293b; 
+    --surface-hover: #334155; 
+    --border: #475569;
+    --text-main: #f8fafc; 
+    --text-muted: #94a3b8; 
+    --accent: #38bdf8; 
+    --accent-hover: #0ea5e9;
+    --code-bg: #020617; 
+    
+    /* Syntax Highlighting Colors */
+    --c-str: #7dd3fc; 
+    --c-key: #c4b5fd; 
+    --c-cmd: #fda4af;
+    --c-arg: #fde047; 
+    --c-var: #f472b6; 
+    
+    --rad: 12px;
+}
